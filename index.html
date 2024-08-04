@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="web1.css"/>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>   
+</head>
+
+<body>
+    <section>
+        <!--- navigation --->
+        <nav>
+            <!--- menu --->
+            <ul>
+                <button class="w3-bar-item w3-button" onclick="Menu('Home')">Home</button>
+                <button class="w3-bar-item w3-button" onclick="Menu('Achievement')">Achievement</button>
+                <button class="w3-bar-item w3-button" onclick="Menu('Profile')">Profile</button>
+            </ul>
+        </nav>
+ 
+        <!--- text --->
+        <div id="Home" class="text-container w3-container char w3-padding-24 w3-animate-bottom " style="display: none;">
+            <div class="w3-container">
+                <p>Welcome,</p>
+                <p>We are POWER HIGH</p>
+                <p>MLBB Team from Padangsidimpuan</p>
+                <p>"Even at the worst, We are better than you".</p>
+                <section id="contact">
+                    <h1 class="section-header" style="color: rgb(255, 111, 111);">Contact</h1>
+            
+                    <div class="contact-wrapper">
+                    
+                    <!-- Left contact page --> 
+                    
+                    <form id="contact-form" class="form-horizontal" role="form">
+                        <div class="contact-left">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" rows="10" cols="50" id="name" placeholder="NAME" name="name" value="" required>
+                        </div>
+                        </div>
+                        <div class="contact-left">
+                        <div class="col-sm-12">
+                            <input type="email" class="form-control" rows="10" cols="50" id="email" placeholder="EMAIL" name="email" value="" required>
+                        </div>
+                        </div>
+                        <textarea class="form-control" rows="10" cols="50" placeholder="MESSAGE" name="message" required></textarea>
+                        <div   class="alt-send-button" >
+                            <button class="send-text" >Send</button>
+                        </div>
+                    </form>
+                    
+                    <!-- Left contact page --> 
+                    
+                        <div class="direct-contact-container">
+                        <ul class="contact-list">
+                            <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place" style="color: rgb(255, 111, 111);">Kota Padangsidimpuan</span></i></li>
+                            
+                            <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call" style="color: rgb(255, 111, 111);">081260570598</a></span></i></li>
+                            
+                            <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email" style="color: rgb(255, 111, 111);">alfisyahrinhsb85@gmail.com</a></span></i></li>
+                            
+                        </ul>
+                        <hr>
+                        <ul class="social-media-list">
+                            <li><a href="#" target="_blank" class="contact-icon">
+                            <i class="fa fa-github" aria-hidden="true"><img src="sayang/github.png" alt="" width="60px"></i></a>
+                            </li>
+                            <li><a href="#" target="_blank" class="contact-icon">
+                            <i class="fa fa-codepen" aria-hidden="true"><img src="sayang/code.png" alt="" width="60px"></i></a>
+                            </li>
+                            <li><a href="#" target="_blank" class="contact-icon">
+                            <i class="fa fa-twitter" aria-hidden="true"><img src="sayang/x.png" alt="" width="60px"></i></a>
+                            </li>
+                            <li><a href="#" target="_blank" class="contact-icon">
+                            <i class="fa fa-instagram" aria-hidden="true"><img src="sayang/tele.webp" alt="" width="60px"></i></a>
+                            </li>       
+                        </ul>
+                        <hr>
+                        <div style="color: rgb(255, 111, 111);" class="copyright"> &copy; ALL OF THE RIGHTS RESERVED</div>
+                        </div>
+                    </div>
+                    
+                </section>  
+                
+            </div>
+        </div>   
+
+
+        <div id="Achievement" class="w3-container char w3-center w3-padding-24" style="display: none; max-width: 1000px; margin: auto;">
+            <div class="w3-container w3-card-4 w3-round-xxlarge">
+                <div style="color: rgb(255, 111, 111);" class="w3-container">
+                    <h3>Achievement Saya</h3>
+                    <img alt="model" class="model" src="sayang/ph.png" style="width: 20%; height: 50%;"> 
+                    <div style="color: rgb(255, 111, 111);" class="w3-container w3-row-padding">
+                        <p>power high memperoleh juara 1 dan 2 di salah satu turnament yang ada di kota padangsidimpuan 
+                        <div class="w3-row s4"><img src="sayang/gaa.jpg" alt="" class="w3-padding-16 w3-animate-zoom" style="height: auto; width: 40%;"></div>
+                        <p>awal mula pertama power high menjadi salah satu tim paling kuat di Padangsidimpuan
+                        <div class="w3-row s4"><img src="sayang/heh.jpg" alt="" class="w3-padding-16 w3-animate-zoom" style="height: auto; width: 40%;"></div>
+                        <p>turnament trakhir sebelum member power high bubar pergi menjalanin jalan nya masing masing
+                        <div class="w3-row s4"><img src="sayang/iya.jpg" alt="" class="w3-padding-16 w3-animate-zoom" style="height: auto; width: 40%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Profile" class="text-container w3-container char w3-padding-24 w3-animate-bottom " style="display: none;">
+            <div class="w3-container">
+                <img alt="model" class="model" src="sayang/ph.png" style="width: 20%; height: 50%;"> 
+                <img alt="model" class="model" style="position: relative; top: 30px; left: 300px;" src="sayang/alfi.jpg"> 
+                <p>PROFILE</p>
+                <p>ALFI SYAHRIN HASIBUAN-105223064</p>
+                <p>IS-2 - UNIVERSITAS KOMPUTER INDONESIA</p>
+            </div>
+
+
+
+
+        </div>
+
+    </section>
+ 
+    <div class="social">
+        <a href="https://api.whatsapp.com/send?phone=621260570598"><i class="fab fa-whatsapp"><img src="sayang/wa.png" alt="" width="90%"></i></a>
+        <a href="https://www.facebook.com/oppay.inata"><i class="fab fa-facebook-f"><img src="sayang/fb.png" alt="" width="100%"></i></a>
+        <a href="https://www.instagram.com/teampowerhigh/"><i class="fab fa-instagram"><img src="sayang/ig.png" alt="" width="100%"></i></a>
+    </div>
+
+    <script>
+        function Menu(Karakter) {
+            var i;
+            var x = document.getElementsByClassName("char");
+            for (i = 0;i < x.length;i++){
+                x[i].style.display = "none";
+            }
+            document.getElementById(Karakter).style.display = "block";
+        }
+    </script>
+</body>
+
+</html>
